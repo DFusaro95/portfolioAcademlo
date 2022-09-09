@@ -628,6 +628,20 @@ img {
     text-align: center;
   }
 
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer__description {
+    transition: all .5s ease;
+  }
+
+  .footer__description:hover {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  }
 }
 
 /* DISEÑO DESKTOP DE 768px AL MAX DE PANTALLA*/
@@ -1057,5 +1071,20 @@ img {
     font-size: 18px;
     margin: 0;
     text-align: center;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer__description {
+    transition: all .5s ease;
+  }
+
+  .footer__description:hover {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
   }
 }
